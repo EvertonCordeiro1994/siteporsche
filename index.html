@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Porsche Carrera</title>
 </head>
 
@@ -32,57 +33,93 @@
         <div class="flex flex-col gap-9">
             <div class="mt-9">
                 <img class="w-60 " src="./images/911.svg" alt="">
-                <img class="mt--3" src="./images/coupe/coupe-lado.avif" alt="">
+                <img class="animate__animated animate__bounceInLeft mt--3" src="./images/coupe/coupe-lado.avif" alt="">
             </div>
 
             <div class=" flex centralizar-x gap-2 mt--2">
-                <button id="btn-home1" >COUPÉ</button>
+                <button id="btn-home1" class="btn-coupe-ativado">COUPÉ</button>
                 <button id="btn-home2">CABRIOLET</button>
             </div>
         </div>
     </section>
 
-    <section id="videos">
-        <div id="player">
-            <img src="https://placehold.co/1200x480/dcdcdc/FFF" alt="">
+    <section id="comparacao">
+        <div id="div-titulo-comparacao">
+            <h1>Qual 911 é o ideal para você?</h1>
         </div>
-        <div id="btns-player">
-            <button id="btn-player1" >
-                <img src="https://placehold.co/200x80/191970/FFF" alt="">
-            </button>
-            <button id="btn-player2" >
-                <img src="https://placehold.co/200x80/708090/FFF" alt="">
-            </button>
-            <button id="btn-player3" >
-                <img src="https://placehold.co/200x80/008080/FFF" alt="">
-            </button>
-            <button id="btn-player4" >
-                <img src="https://placehold.co/200x80/000fff/FFF" alt="">
-            </button>
-            <button id="btn-player5" >
-                <img src="https://placehold.co/200x80/00800/FFF" alt="">
-            </button>
-            <button id="btn-player6" >
-                <img src="https://placehold.co/200x80/ffdead/FFF" alt="">
-            </button>
+
+        <div id="div-card-comparacao">
+
+            <div id="div-modelo-1">
+                <img src="./images/coupe/coupe-lado.avif" alt="">
+
+                <h1>911 Carrera (2025)</h1>
+                <div>
+                    <p>4,1 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>290 kW / 394 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>294 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
+            </div>
+
+            <div id="div-modelo-2">
+                <img src="./images/cabriolet/cabriolet-lado.avif" alt="">
+
+                <h1>911 Carrera Cabriolet (2025)</h1>
+                <div>
+                    <p>4,3 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>290 kW / 394 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>291 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
+            </div>
+
         </div>
-    </section>
-    <section id="contato">
-        <div>
-            <h1>Fale conosco</h1>
-            <form>
-                <input type="text" id="input-formulario1" placeholder="Primeiro nome">
-                <input type="text" id="input-formulario2" placeholder="Último nome">
-                <input type="email" id="input-formulario3" placeholder="email@email.com">
-                <input type="tel" id="input-formulario4" placeholder="(51) 9xxxx-xxxx">
-                <button id="btn-formulario">Enviar</button>
-            </form>
-        </div>
-        <div>
-            <img src="https://placehold.co/400x400/008080/FFF"" alt="">
-        </div>
+
     </section>
 
+
+    <section id="contato">
+        <div id='area-texto-contato'>
+            <form id="fomulario">
+                <h1>Encontre seu Porsche novo ou seminovo.</h1>
+                <p>Ficou mais fácil encontrar o Porsche de seus sonhos. Digite seu email que entramos em contato e lhe
+                    enviaremos todas as novidades para você.</p>
+                <input type="text" placeholder="Digite seu email">
+            </form>
+        </div>
+
+        <img id="carro_contato" src="./images/tres-carros.avif" alt="">
+
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h1>Redes sociais</h1>
+                <div>
+                    <a href="" target="_blank" title="facebook"><img src="./images/redes_sociais/face.svg" alt=""></a>
+                    <a href="" target="_blank" title="instagran"><img src="./images/redes_sociais/insta.svg" alt=""></a>
+                    <a href="" target="_blank" title="linkedin"><img src="./images/redes_sociais/linkedin.svg"
+                            alt=""></a>
+                    <a href="" target="_blank" title="pinterest"><img src="./images/redes_sociais/pinterest.svg"
+                            alt=""></a>
+                    <a href="" target="_blank" title="X"><img src="./images/redes_sociais/x.svg" alt=""></a>
+                    <a href="" target="_blank" title="youtube"><img src="./images/redes_sociais/youtube.svg" alt=""></a>
+                </div>
+            </div>
+            <img src="./images/letreiro.svg" alt="">
+        </div>
+        <div id="assinatura">
+            <h1>code by Éverton Cordeiro</h1>
+        </div>
+    </footer>
 </body>
 
 </html>
