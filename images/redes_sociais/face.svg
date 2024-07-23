@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+<svg xmlns="http://www.w3.org/2000/svg"  width="32px" height="32px" viewBox="0 0 16 16"><path fill="white" d="M7.2 16V8.5h-2V5.8h2V3.5C7.2 1.7 8.4 0 11.1 0c1.1 0 1.9.1 1.9.1l-.1 2.5h-1.7c-1 0-1.1.4-1.1 1.2v2H13l-.1 2.7h-2.8V16z"/></svg>
+=======
 <svg xmlns="http://www.w3.org/2000/svg"  width="1em" height="1em" viewBox="0 0 16 16"><path fill="white" d="M7.2 16V8.5h-2V5.8h2V3.5C7.2 1.7 8.4 0 11.1 0c1.1 0 1.9.1 1.9.1l-.1 2.5h-1.7c-1 0-1.1.4-1.1 1.2v2H13l-.1 2.7h-2.8V16z"/></svg>
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22

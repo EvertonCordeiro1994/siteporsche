@@ -4,56 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./style/style1227px.css">
     <title>Porsche Carrera</title>
 </head>
 
 <body>
-    <header class="flex around h-2 centralizar-y p-1 ">
-        <img src="./images/favicon.ico" alt="">
+    <header class="animate__animated  animate__fadeInTopLeft">
+        <img src="./images/logo/porsche-logo-1.png" alt="">
         <nav>
-            <ul class="flex between gap-2 font-goose">
-                <li>INICIO</li>
-                <li>SOBRE</li>
-                <li>VIDEOS</li>
-                <li>FOTOS</li>
-                <li>CONTATO</li>
+            <ul>
+                <li><a href="#modelos">MODELOS</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+                <li><a href="#galeria">FOTOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
-        <button id="btn-nav">Compre o seu</button>
     </header>
 
-    <section id="inicio" class="flex w-80 centralizar-x w-100 h-100 centralizar-y mt--2">
-        <div class="girar flex flex-col">
-            <span class="font-porsche font-7">PORSCHE</span>
-            <span class="font-porsche font-5 cor-coupe">CARRERA</span>
+    <section id="inicio">
+        <div id="esquerda-home">
+            <div>
+                <h1 class="animate__animated animate__fadeInLeft">PORSCHE</h1>
+                <h2 class="animate__animated animate__fadeInRight">CARRERA</h2>
+            </div>
         </div>
-        <div class="flex flex-col gap-9">
-            <div class="mt-9">
-                <img class="w-60 " src="./images/911.svg" alt="">
-                <img class="animate__animated animate__bounceInLeft mt--3" src="./images/coupe/coupe-lado.avif" alt="">
+        <div id="direita-home">
+            <div id="imagens-home">
+                <img class="animate__animated animate__fadeIn" id="letreiro-home" src="./images/911.svg" alt="">
+                <img class="animate__animated animate__bounceInLeft" id="carro-home"
+                    src="./images/carros/coupe-lado.avif" alt="">
             </div>
 
-            <div class=" flex centralizar-x gap-2 mt--2">
-                <button id="btn-home1" class="btn-coupe-ativado">COUPÉ</button>
+            <div id="botoes-home" class="animate__animated animate__fadeInBottomRight">
+                <button id="btn-home1">COUPÉ</button>
                 <button id="btn-home2">CABRIOLET</button>
             </div>
         </div>
     </section>
 
-    <section id="comparacao">
-        <div id="div-titulo-comparacao">
-            <h1>Qual 911 é o ideal para você?</h1>
+    <section id="modelos">
+        <div id="div-titulo-modelos">
+            <h1>MODELOS</h1>
         </div>
 
-        <div id="div-card-comparacao">
+        <div id="div-card-modelos">
 
             <div id="div-modelo-1">
-                <img src="./images/coupe/coupe-lado.avif" alt="">
+                <img src="./images/carros/coupe-lado.webp" alt="">
 
-                <h1>911 Carrera (2025)</h1>
+                <h1>911 Carrera </h1>
                 <div>
                     <p>4,1 s</p>
                     <span>Aceleração 0 - 100 km/h</span>
@@ -66,9 +68,9 @@
             </div>
 
             <div id="div-modelo-2">
-                <img src="./images/cabriolet/cabriolet-lado.avif" alt="">
+                <img src="./images/carros/cabriolet-lado.webp" alt="">
 
-                <h1>911 Carrera Cabriolet (2025)</h1>
+                <h1>911 Carrera Cabriolet </h1>
                 <div>
                     <p>4,3 s</p>
                     <span>Aceleração 0 - 100 km/h</span>
@@ -80,10 +82,112 @@
 
             </div>
 
+            <div id="div-modelo-3">
+                <img src="./images/carros/gt3-lado.webp" alt="">
+
+                <h1>911 Carrera GT3</h1>
+                <div>
+                    <p>3,2 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>386 kW / 525 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>296 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
+            </div>
+
+            <div id="div-modelo-4">
+                <img src="./images/carros/coupe-turbo-s-lado.webp" alt="">
+
+                <h1>911 Dakar </h1>
+                <div>
+                    <p>3,4 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>353 kW / 480 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>240 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
+            </div>
+
+            <div id="div-modelo-5">
+                <img src="./images/carros/st-lado.webp" alt="">
+
+                <h1>911 S/T</h1>
+                <div>
+                    <p>4,3 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>290 kW / 394 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>291 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
+            </div>
+
+            <div id="div-modelo-6">
+                <img src="./images/carros/cabriolet-turbo-lado.webp" alt="">
+
+                <h1>911 Carrera GTS Cabriolet</h1>
+                <p>3,1 s</p>
+                <span>Aceleração 0 - 100 km/h com Pacote Sport Chrono</span>
+                <p>398 kW / 541 cv</p>
+                <span>Potência combinada (kW) / Potência combinada (cv)</span>
+                <p>312 km/h</p>
+                <span>Velocidade máxima</span>
+
+            </div>
+
+            <div id="div-modelo-7">
+                <img src="./images/carros/dakar-lado.webp" alt="">
+
+                <h1>911 Dakar </h1>
+                <div>
+                    <p>3,4 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>353 kW / 480 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>240 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
+            </div>
+
+            <div id="div-modelo-8">
+                <img src="./images/carros/st-lado.webp" alt="">
+
+                <h1>911 S/T</h1>
+                <div>
+                    <p>4,3 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>290 kW / 394 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>291 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
+            </div>
+
+            <div id="div-modelo-9">
+                <img src="./images/carros/cabriolet-turbo-s-lado.webp" alt="">
+
+                <h1>911 Carrera GTS Cabriolet</h1>
+                <p>3,1 s</p>
+                <span>Aceleração 0 - 100 km/h com Pacote Sport Chrono</span>
+                <p>398 kW / 541 cv</p>
+                <span>Potência combinada (kW) / Potência combinada (cv)</span>
+                <p>312 km/h</p>
+                <span>Velocidade máxima</span>
+
+            </div>
+
+        </div>
+
         </div>
 
     </section>
-
 
     <section id="contato">
         <div id='area-texto-contato'>
@@ -95,27 +199,34 @@
             </form>
         </div>
 
-        <img id="carro_contato" src="./images/tres-carros.avif" alt="">
+        <div id="div-img-contato">
+            <img id="carro_contato" src="./images/carros/tres-carros.avif" alt="">
+        </div>
 
     </section>
 
     <footer>
-        <div>
-            <div>
-                <h1>Redes sociais</h1>
-                <div>
+        <div id="cima-footer">
+            <div id="redes_sociais">
+                <div id="titulo-footer">
+                    <h1>Redes sociais</h1>
+                </div>
+                <div id="icones-redes-sociais">
+
                     <a href="" target="_blank" title="facebook"><img src="./images/redes_sociais/face.svg" alt=""></a>
                     <a href="" target="_blank" title="instagran"><img src="./images/redes_sociais/insta.svg" alt=""></a>
-                    <a href="" target="_blank" title="linkedin"><img src="./images/redes_sociais/linkedin.svg"
-                            alt=""></a>
-                    <a href="" target="_blank" title="pinterest"><img src="./images/redes_sociais/pinterest.svg"
-                            alt=""></a>
+                    <a href="" target="_blank" title="linkedin"><img src="./images/redes_sociais/linkedin.svg" alt=""></a>
+                    <a href="" target="_blank" title="pinterest"><img src="./images/redes_sociais/pinterest.svg" alt=""></a>
                     <a href="" target="_blank" title="X"><img src="./images/redes_sociais/x.svg" alt=""></a>
                     <a href="" target="_blank" title="youtube"><img src="./images/redes_sociais/youtube.svg" alt=""></a>
                 </div>
             </div>
-            <img src="./images/letreiro.svg" alt="">
+            <div id="imagem-logo-footer">
+                <img src="./images/logo/logo-escrito.svg" alt="">
+            </div>
         </div>
+
+
         <div id="assinatura">
             <h1>code by Éverton Cordeiro</h1>
         </div>

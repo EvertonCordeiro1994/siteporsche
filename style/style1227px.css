@@ -1,0 +1,490 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-claro-coupe: #4464A7;
+    --azul-escuro-coupe: #042670;
+    --amarelo-claro-cabriolet: #DCDE94;
+    --amarelo-escuro-cabriolet: #A5A64A;
+}
+
+@font-face {
+    font-family: 'porsche';
+    src: url('../fonts/911porschav3.ttf');
+}
+
+@font-face {
+    font-family: 'goose';
+    src: url('../fonts/Cocogoose-Pro-Semilight-trial.ttf');
+}
+
+@font-face {
+    font-family: 'porsche next';
+    src: url('../fonts/PorscheNext.otf');
+}
+
+@font-face {
+    font-family: 'nexa';
+    src: url('../fonts/Nexa-ExtraLight.ttf');
+}
+
+body {
+    width: 98.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* NAVBAR */
+
+header {
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header>img {
+    width: 100px;
+}
+
+header>nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+header>nav>ul>li {
+    list-style: none;
+}
+
+header>nav>ul>li>a {
+    font-family: "porsche next";
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+
+}
+
+header>nav>ul>li:hover {
+    letter-spacing: 1px;
+    transition: all 0.1s;
+    border-bottom: 2px solid black;
+}
+
+/* ------------------------------------------------------------------------*/
+/* HOME */
+
+#inicio {
+    width: 80%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inicio>#esquerda-home {
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio>#esquerda-home>div {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5rem;
+    transform: rotate(-90deg);
+}
+
+#inicio>#esquerda-home>div>h1 {
+    font-size: 120px;
+    font-family: 'porsche next';
+    letter-spacing: 6px;
+}
+
+#inicio>#esquerda-home>div>h2 {
+    font-size: 70px;
+    font-family: 'porsche next';
+    letter-spacing: 6px;
+    margin-top: -100px;
+    color: var(--azul-claro-coupe);
+}
+
+#inicio>#direita-home {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+#inicio>#direita-home>#imagens-home {
+    width: 95%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#inicio>#direita-home>#imagens-home>#letreiro-home {
+    width: 70%;
+}
+
+#inicio>#direita-home>#imagens-home>#carro-home {
+    width: 100%;
+    margin-top: -50px;
+}
+
+#inicio>#direita-home>#botoes-home {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -6rem;
+
+
+}
+
+#inicio>#direita-home>#botoes-home>#btn-home1 {
+    background: none;
+    border: none;
+    color: black;
+    font-family: goose;
+    width: 25rem;
+    height: 3rem;
+    margin-top: 3rem;
+}
+
+#inicio>#direita-home>#botoes-home>#btn-home2 {
+    background: none;
+    border: none;
+    color: black;
+    font-family: goose;
+    width: 25rem;
+    height: 3rem;
+    margin-top: 3rem;
+}
+
+#inicio>#direita-home>#botoes-home>#btn-home1:hover {
+    background-color: var(--azul-claro-coupe);
+    color: #fff;
+    transform: skewX(-15deg);
+    letter-spacing: 1rem;
+    transition: all 0.5s;
+}
+
+#inicio>#direita-home>#botoes-home>#btn-home2:hover {
+    background-color: var(--amarelo-escuro-cabriolet);
+    color: #fff;
+    transform: skewX(-15deg);
+    letter-spacing: 1rem;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------------------------------------*/
+
+#modelos {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+#modelos>#div-titulo-modelos {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#modelos>#div-titulo-modelos>h1 {
+    font-family: 'porsche next';
+}
+
+#modelos>#div-card-modelos {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-1 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-2 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-3 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-4 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-5 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-6 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-7 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-8 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-9 {
+    width: 33%;
+
+
+}
+
+#modelos>#div-card-modelos>#div-modelo-1>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-2>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-3>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-4>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-5>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-6>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-7>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-8>img {
+    width: 90%;
+}
+
+#modelos>#div-card-modelos>#div-modelo-9>img {
+    width: 90%;
+}
+
+
+
+/*-------------------------------------------------------------------*/
+
+/* CONTATO */
+
+#contato {
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    margin-top: 10rem;
+
+
+
+}
+
+#contato>#area-texto-contato {
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#contato>#area-texto-contato>form {
+    width: 80%;
+    margin-top: -15rem;
+}
+
+#contato>#area-texto-contato>form>h1 {
+    font-size: 3rem;
+
+}
+
+#contato>#area-texto-contato>form>p {
+    font-size: 1.2rem;
+
+}
+
+#contato>#area-texto-contato>form>input {
+    width: 350px;
+    height: 40px;
+    margin-top: 2rem;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+#contato>#div-img-contato {
+
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: -5rem;
+
+
+
+
+}
+
+#contato>#div-img-contato>#carro_contato {
+    width: 100%;
+
+
+}
+
+/*-------------------------------------------------------------------*/
+/* FOOTER  */
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer > #cima-footer{
+    width: 99%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+    
+}
+
+footer > #cima-footer > #redes_sociais{
+    width: 30%;
+    
+
+    
+}
+footer > #cima-footer > #redes_sociais > #titulo-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+footer > #cima-footer > #redes_sociais > #titulo-footer > h1 {
+    font-family: 'porsche next';
+    font-size: 2rem;
+    color: #fff;
+    
+}
+
+
+footer > #cima-footer > #redes_sociais > #icones-redes-sociais {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+footer > #cima-footer >  #imagem-logo-footer {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+footer > #cima-footer >  #imagem-logo-footer > img {
+    width: 50%;
+}
+
+
+
+footer > #assinatura{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+    
+    
+    
+}
+
+footer > #assinatura > h1{
+    font-family: 'goose';
+    font-size: 0.7rem;
+    color: #363535;
+    font-weight: lighter;
+}
+
+/*-------------------------------------------------------------------*/

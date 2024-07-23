@@ -10,21 +10,41 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-family: 'porsche next';
+
+=======
     font-family: 'porschenext';
     
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
+=======
+    font-family: 'porschenext';
+    
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
 }
 
 @font-face {
-    font-family: "porsche";
-    src: url("../fonts/911porschav3.ttf");
+    font-family: 'porsche';
+    src: url('../fonts/911porschav3.ttf');
 }
 
 @font-face {
-    font-family: "goose";
-    src: url("../fonts/Cocogoose-Pro-Semilight-trial.ttf");
+    font-family: 'goose';
+    src: url('../fonts/Cocogoose-Pro-Semilight-trial.ttf');
 }
 
 @font-face {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-family: 'porsche next';
+    src: url('../fonts/PorscheNext.otf');
+}
+
+@font-face {
+    font-family: 'nexa';
+    src: url('../fonts/Nexa-ExtraLight.ttf');
+=======
     font-family: "porschenext";
     src: url("../fonts/PorscheNext.otf");
 }
@@ -32,14 +52,24 @@
 @font-face {
     font-family: "nexa";
     src: url("../fonts/Nexa-ExtraLight.ttf");
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
+=======
+    font-family: "porschenext";
+    src: url("../fonts/PorscheNext.otf");
+}
+
+@font-face {
+    font-family: "nexa";
+    src: url("../fonts/Nexa-ExtraLight.ttf");
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
 }
 
 .font-goose {
-    font-family: "goose";
+    font-family: 'goose';
 }
 
 .font-porsche {
-    font-family: "porsche";
+    font-family: 'porsche';
 }
 
 .flex {
@@ -336,12 +366,23 @@
 
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+=======
+=======
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
 header>nav>ul>li:hover {
     font-size: 1.2rem;
     letter-spacing: 1px;
     transition: all 0.2s;
     border-bottom: 2px solid black;
 }
+<<<<<<< HEAD
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
+=======
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
 /********************************************************************************/
 
 /* HOME */
@@ -405,8 +446,353 @@ header>nav>ul>li:hover {
     width: 100%;
     margin-top: 6rem;
 }
+<<<<<<< HEAD
+
+/********************************************************************************/
+
+/* COMPARAÇÃO */
+
+#comparacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#div-titulo-comparacao {
+    text-align: center;
+}
+
+#div-card-comparacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 6rem;
+}
 
 
+#div-modelo-1 {
+    width: 40%;
+    background-color: red;
+    height: 30rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#div-modelo-2 {
+    width: 40%;
+    background-color: green;
+    height: 30rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#div-modelo-1>img {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+#div-modelo-2>img {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+#div-modelo-1>h1 {
+    font-family: 'porsche';
+
+}
+
+#div-modelo-2>h1 {
+    font-family: 'porsche';
+
+}
+
+
+
+
+
+
+
+
+
+/* CONTATO */
+
+
+
+#contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#area-texto-contato {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-left: 15rem;
+    margin-top: 10rem;
+}
+
+form>h1 {
+    font-family: 'porschenext';
+    font-size: 3rem;
+}
+
+form>p {
+    font-family: 'nexa';
+    font-size: 1.5rem;
+}
+
+form>input {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    margin: 0;
+    outline: none;
+    appearance: none;
+    box-sizing: border-box;
+    border: 2px solid rgb(107, 109, 112);
+    border-radius: 4px;
+    background: transparent;
+    font-size: 1rem;
+    font-family: 'porschenext';
+    text-indent: 0;
+    color: rgb(1, 2, 5);
+    padding: 8px 16px;
+    overflow: visible;
+    outline-offset: -2px;
+    margin-top: 1rem;
+}
+
+
+
+#carro_contato {
+    width: 60%;
+}
+
+/********************************************************************************/
+
+
+
+
+/* FOOTER */
+
+
+
+footer>div {
+    background-color: #0e0e12;
+    color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>div>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+footer>div>div>h1 {
+    margin-top: 2rem;
+}
+
+footer>div>div>div {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer>div>div>div>a>img {
+    width: 25px;
+    height: 25px;
+}
+
+footer>div>img {
+    width: 300px;
+    margin-right: 5rem;
+}
+
+#assinatura {
+    display: flex;
+    justify-content: center;
+}
+
+#assinatura>h1 {
+    font-size: 0.8rem;
+    font-family: 'goose';
+
+}
+
+@media (max-width: 1227px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+
+    @import url('./style.css');
+
+
+    @font-face {
+        font-family: 'porsche';
+        src: url('../fonts/911porschav3.ttf');
+    }
+
+    @font-face {
+        font-family: 'goose';
+        src: url('../fonts/Cocogoose-Pro-Semilight-trial.ttf');
+    }
+
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+        /* position: fixed;
+        z-index: 100; */
+    }
+
+    header>img {
+        width: 3%;
+        height: 3%;
+    }
+
+    header>nav>ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        font-size: 1rem;
+        font-family: 'goose';
+    }
+
+    header>nav>ul>li>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    header>nav>ul>li>a:hover {
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        padding: 0 0 2px 0;
+    }
+
+    header>button {
+        width: 150px;
+        background-color: white;
+        padding: 4px 4px 4px 4px;
+        border-radius: 10px;
+        border-color: black;
+        border-style: solid;
+        color: black;
+        font-family: 'goose';
+        font-size: 0.7rem;
+        transition: all 0.3s;
+    }
+
+    header>button:hover {
+        border-color: white;
+        background-color: black;
+        color: white;
+        transition: all 0.3s;
+    }
+
+    #inicio {
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+        height: 100vh;
+    }
+
+    #div-texto-home {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        gap: 2rem;
+        text-align: center;
+
+
+    }
+
+    #div-texto-home>h1 {
+        margin-top: 15rem;
+        font-family: 'porsche';
+        font-size: 4rem;
+        transform: rotate(-90deg);
+    }
+
+    #div-texto-home>h2 {
+        font-family: 'porsche';
+        font-size: 3rem;
+        margin-right: -4.5rem;
+        margin-top: -8rem;
+        transform: rotate(-90deg);
+        color: rgb(65, 47, 146);
+    }
+
+    #div-img-home {
+        width: 70%;
+    }
+
+
+
+
+    #div-modelo-1,
+    #div-modelo-2 {
+        width: 527px;
+        height: 624px;
+        background-color: #fff;
+        border: solid;
+        border-color: #6b6d70;
+        border-radius: 12px;
+    }
+
+    #div-modelo-1>img {
+        width: 478px;
+        height: 130px;
+    }
+
+    #div-modelo-1>h1 {
+        font-family: 'posrchenext';
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+    #div-modelo-2>img {
+        width: 478px;
+        height: 130px;
+    }
+
+<<<<<<< HEAD
+}
+=======
+=======
+
+
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
 #div-modelo-1{
     width: 40%;
     background-color: red;
@@ -569,3 +955,7 @@ footer>div>img{
 
 }
 
+<<<<<<< HEAD
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
+=======
+>>>>>>> 673a3cb8e24c4c669ba9e6c00cbf5436bd8a0e22
