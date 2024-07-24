@@ -1,0 +1,45 @@
+#sobre{
+    width: 90%;
+    height: 97vh;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+#sobre > #texto-sobre {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#sobre > #texto-sobre > h1 {
+    font-size: 5rem;
+    font-family: 'porsche next';
+}
+
+
+
+#sobre > #texto-sobre > p {
+    width: 90%;
+    font-size: 1rem;
+    font-family: 'nexa';
+    font-weight: bold;
+
+
+ 
+}
+
+#sobre > #img-sobre {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+#sobre > #img-sobre > img {
+    height: 100%;
+}

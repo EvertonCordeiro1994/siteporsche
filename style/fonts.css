@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'porsche';
+    src: url('../fonts/911porschav3.ttf');
+}
+
+@font-face {
+    font-family: 'goose';
+    src: url('../fonts/Cocogoose-Pro-Semilight-trial.ttf');
+}
+
+@font-face {
+    font-family: 'porsche next';
+    src: url('../fonts/PorscheNext.otf');
+}
+
+@font-face {
+    font-family: 'nexa';
+    src: url('../fonts/Nexa-ExtraLight.ttf');
+}

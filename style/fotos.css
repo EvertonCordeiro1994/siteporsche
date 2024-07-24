@@ -1,10 +1,8 @@
 @import url('./configuracao.css');
-@import url('./sobre.css');
-@import url('./contato.css');
-@import url('./fonts.css');
 @import url('./fotos.css');
+@import url('./fonts.css');
 @import url('./footer.css');
+@import url('./global.css');
 @import url('./header.css');
 @import url('./home.css');
 @import url('./modelos.css');
-@import url('./root.css');
