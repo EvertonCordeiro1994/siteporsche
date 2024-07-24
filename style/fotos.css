@@ -1,8 +1,80 @@
-@import url('./configuracao.css');
-@import url('./fotos.css');
-@import url('./fonts.css');
-@import url('./footer.css');
-@import url('./global.css');
-@import url('./header.css');
-@import url('./home.css');
-@import url('./modelos.css');
+#fotos {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: blueviolet;
+    /* apagar */
+}
+
+#fotos>#galeria {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: brown;
+    /* apagar */
+}
+
+#fotos>#galeria>#div01 {
+    width: 70%;
+    height: 100%;
+
+    background-color: purple;
+    /* apagar */
+
+}
+
+#fotos>#galeria>#div02 {
+    width: 30%;
+    height: 100%;
+
+    background-color: peru;
+    /* apagar */
+}
+
+#fotos>#galeria>#div01>#div04 {
+    display: flex;
+
+    background-color: chartreuse;
+    /* apagar */
+}
+
+
+#img01 {
+    width: 320px;
+    height: 640px;
+
+    border-radius: 15px;
+}
+
+#img02 {
+    width: 344px;
+    height: 165px;
+}
+
+#img03 {
+    width: 132px;
+    height: 165px;
+}
+
+#img04 {
+    width: 330px;
+    height: 165px;
+}
+
+
+#img05 {
+    width: 233px;
+    height: 465px;
+}
+
+
+#fotos>#galeria>#div01>#div04 {}
+
+#fotos>#galeria>#div01>#div04 {}
