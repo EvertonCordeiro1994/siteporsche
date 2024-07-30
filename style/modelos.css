@@ -1,149 +1,88 @@
-
-
 #modelos {
-    width: 80%;
-
+    margin-top: 5rem;
+    width: 97vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 1.2rem;
 }
 
-#div-titulo-modelos {
-    width: 100%;
-    height: 10%;
+.card_modelos {
     display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 432px;
     justify-content: center;
     align-items: center;
 
+    background-color: #fff;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(97, 96, 96, 0.274);
+
 
 }
 
-#div-titulo-modelos>h1 {
-    font-family: 'porsche next';
+.titulo_card_modelos{
+    font-family: 'porsche next' ;
 }
 
-#div-card-modelos {
+
+.img_card_modelos {
+    width: 452px;
+}
+
+.img_modelo {
     width: 100%;
-    height: 90%;
+    height: auto;
+
+}
+
+
+
+.text_card_modelos {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-left: 5rem;
+    justify-content: center;
+    width: 95%;
+    height: 7rem;
+    margin-bottom: 10px;
+    border-radius: 12px;
 
-
-
-}
-
-.card-modelo{
-    width: 33%;
-}
-
-#div-modelo-1 {
-    width: 33%;
+    background-color: #d6d8dd28;
 
 
 }
 
-#div-modelo-2 {
-    width: 33%;
-
-
-}
-
-#div-modelo-3 {
-    width: 33%;
-
-
-}
-
-#div-modelo-4 {
-    width: 33%;
-
-
-}
-
-#div-modelo-5 {
-    width: 33%;
-
-
-}
-
-#div-modelo-6 {
-    width: 33%;
-
-
-}
-
-#div-modelo-7 {
-    width: 33%;
-
-
-}
-
-#div-modelo-8 {
-    width: 33%;
-
-
-}
-
-#div-modelo-9 {
-    width: 33%;
-
-
-}
-
-.img-modelo{
-    width: 90%;
+.informacoes {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 
-
-#div-modelo-1>img {
-    width: 90%;
-}
-
-#div-modelo-2>img {
-    width: 90%;
-}
-
-#div-modelo-3>img {
-    width: 90%;
-}
-
-#div-modelo-4>img {
-    width: 90%;
-}
-
-#div-modelo-5>img {
-    width: 90%;
-}
-
-#div-modelo-6>img {
-    width: 90%;
-}
-
-#div-modelo-7>img {
-    width: 90%;
-}
-
-#div-modelo-8>img {
-    width: 90%;
-}
-
-#div-modelo-9>img {
-    width: 90%;
-}
-
-
-
-.text-card > p{
+.titulo_informacoes {
+    display: flex;
+    text-align: center;
+    width: 30%;
+    font-size: 1.5rem;
     font-family: 'porsche next';
-    font-weight: bolder;
 }
 
-.text-card > span{
-    font-family: 'nexa';
-    font-weight: bold;
+.detalhe_titulo {
+    display: flex;
+    width: 30%;
+    font-size: 1rem;
+    font-family: 'porsche next';
+}
+
+.subtitulo_informacoes {
+    display: flex;
+    text-align: center;
+    width: 30%;
+    font-size: 1rem;
+    font-family: 'porsche next';
 }
 

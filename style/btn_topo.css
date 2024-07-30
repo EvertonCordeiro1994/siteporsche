@@ -1,0 +1,18 @@
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgba(99, 97, 97, 0.459);
+    cursor: pointer;
+    font-size: 32px;
+    
+}
+
+#topBtn:hover {
+    color: black;
+}
