@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.carrossel {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carrossel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carrossel-item img {
+    width: 100%;
+    display: block;
+}
