@@ -1,11 +1,11 @@
-#sobre{
+#sobre {
     width: 90%;
     height: 97vh;
     display: flex;
     margin-bottom: 5rem;
 }
 
-#sobre > #texto-sobre {
+#texto-sobre {
     width: 70%;
     height: 100%;
     display: flex;
@@ -13,33 +13,79 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
-#sobre > #texto-sobre > h1 {
+#texto-sobre>h1 {
     font-size: 5rem;
     font-family: 'porsche next';
 }
 
 
 
-#sobre > #texto-sobre > p {
+#texto-sobre>p {
     width: 90%;
     font-size: 1rem;
     font-family: 'nexa';
     font-weight: bold;
 
 
- 
+
 }
 
-#sobre > #img-sobre {
+#img-sobre {
     width: 30%;
     display: flex;
     justify-content: end;
-    
+
 }
 
-#sobre > #img-sobre > img {
+#img-sobre>img {
     height: 100%;
+}
+
+@media (max-width: 767px) {
+    #sobre {
+        width: 97vw;
+        height: 70vh;
+        display: flex;
+        margin-bottom: 10rem;
+    }
+
+    #texto-sobre {
+        width: 99vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    #texto-sobre>h1 {
+        width: 90vw;
+        font-size: 3rem;
+        font-family: 'porsche next';
+    }
+
+
+
+    #texto-sobre>p {
+        width: 90%;
+        font-size: 1rem;
+        font-family: 'nexa';
+        font-weight: bold;
+
+
+
+    }
+
+    #img-sobre {
+
+        display: none;
+      
+
+    }
+
 }

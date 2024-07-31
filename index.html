@@ -11,7 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./style/global.css">
 
@@ -20,7 +22,7 @@
 
 <body>
     <header class="animate__animated  animate__fadeInTopLeft">
-        <img src="./images/logo/porsche-logo-1.png" alt="">
+        <img id="logo-header" src="./images/logo/porsche-logo-1.png" alt="">
         <nav>
             <ul>
                 <li><a href="#sobre">SOBRE</a></li>
@@ -29,6 +31,13 @@
                 <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
+        <div id="menu_hamburguer">
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
     </header>
 
     <section id="inicio">
@@ -151,17 +160,20 @@
                 <div class="carrossel">
                     <div class="carrossel-inner">
                         <div class="carrossel-item">
-                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-frente.webp" alt=" carrera azul de frente">
+                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-frente.webp"
+                                alt=" carrera azul de frente">
                         </div>
                         <div class="carrossel-item">
-                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-lado.webp" alt=" carrera azul de frente">
+                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-lado.webp"
+                                alt=" carrera azul de frente">
                         </div>
                         <div class="carrossel-item">
-                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-costa.webp" alt=" carrera azul de frente">
+                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-costa.webp"
+                                alt=" carrera azul de frente">
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- <div class="carrossel_inner">
                     <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-frente.webp" alt=" carrera azul de frente">
                 </div> -->
@@ -194,7 +206,7 @@
             </div>
 
         </div>
-        
+
         <div class="card_modelos">
             <h1 class="titulo_card_modelos">Carrera Cabriolet 2025</h1>
             <div class="img_card_modelos">
@@ -229,12 +241,11 @@
             </div>
 
         </div>
-        
+
         <div class="card_modelos">
             <h1 class="titulo_card_modelos">Carrera T 2024</h1>
             <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/T_2024/t-frente.webp"
-                    alt=" carrera azul de frente">
+                <img class="img_modelo" src="./images/carros/T_2024/t-frente.webp" alt=" carrera azul de frente">
             </div>
             <div class="text_card_modelos">
                 <div class="informacoes">
@@ -264,12 +275,11 @@
             </div>
 
         </div>
-        
+
         <div class="card_modelos">
             <h1 class="titulo_card_modelos">Carrera GTS 2025</h1>
             <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/gts_2025/gts-frente.webp"
-                    alt=" carrera azul de frente">
+                <img class="img_modelo" src="./images/carros/gts_2025/gts-frente.webp" alt=" carrera azul de frente">
             </div>
             <div class="text_card_modelos">
                 <div class="informacoes">
@@ -408,8 +418,7 @@
         <div class="card_modelos">
             <h1 class="titulo_card_modelos">S/T 2024</h1>
             <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/st_2024/st-frente.webp"
-                    alt=" carrera azul de frente">
+                <img class="img_modelo" src="./images/carros/st_2024/st-frente.webp" alt=" carrera azul de frente">
             </div>
             <div class="text_card_modelos">
                 <div class="informacoes">
@@ -443,8 +452,7 @@
         <div class="card_modelos">
             <h1 class="titulo_card_modelos">GT3 RS 2024</h1>
             <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/gt3_2024/gt3-frente.webp "
-                    alt=" carrera azul de frente">
+                <img class="img_modelo" src="./images/carros/gt3_2024/gt3-frente.webp " alt=" carrera azul de frente">
             </div>
             <div class="text_card_modelos">
                 <div class="informacoes">
@@ -558,5 +566,6 @@
 <script src="./script/carrossel.js"></script>
 <script src="./script/hover_modelos.js"></script>
 <script src="./script/carrossel.js"></script>
+<script src="./script/hamburguer.js"></script>
 
 </html>

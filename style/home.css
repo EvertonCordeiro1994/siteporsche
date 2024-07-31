@@ -1,4 +1,3 @@
-
 #inicio {
     width: 80%;
     height: 97vh;
@@ -8,28 +7,27 @@
 
 }
 
-#inicio>#esquerda-home {
+#esquerda-home {
     width: 20%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#inicio>#esquerda-home>div {
+#esquerda-home>div {
     display: flex;
     flex-direction: column;
     margin-top: -5rem;
     transform: rotate(-90deg);
 }
 
-#inicio>#esquerda-home>div>h1 {
+#esquerda-home>div>h1 {
     font-size: 120px;
     font-family: 'porsche next';
     letter-spacing: 6px;
 }
 
-#inicio>#esquerda-home>div>h2 {
+#esquerda-home>div>h2 {
     font-size: 70px;
     font-family: 'porsche next';
     letter-spacing: 6px;
@@ -37,7 +35,7 @@
     color: var(--azul-claro-coupe);
 }
 
-#inicio>#direita-home {
+#direita-home {
     width: 80%;
     height: 100%;
     display: flex;
@@ -48,7 +46,7 @@
 
 }
 
-#inicio>#direita-home>#imagens-home {
+#imagens-home {
     width: 95%;
     height: 80%;
     display: flex;
@@ -60,16 +58,16 @@
 
 }
 
-#inicio>#direita-home>#imagens-home>#letreiro-home {
+#letreiro-home {
     width: 70%;
 }
 
-#inicio>#direita-home>#imagens-home>#carro-home {
+#carro-home {
     width: 100%;
     margin-top: -50px;
 }
 
-#inicio>#direita-home>#botoes-home {
+#botoes-home {
     width: 100%;
     height: 20%;
     display: flex;
@@ -80,7 +78,7 @@
 
 }
 
-#inicio>#direita-home>#botoes-home>#btn-home1 {
+#btn-home1 {
     background: none;
     border: none;
     color: black;
@@ -90,7 +88,7 @@
     margin-top: 3rem;
 }
 
-#inicio>#direita-home>#botoes-home>#btn-home2 {
+#btn-home2 {
     background: none;
     border: none;
     color: black;
@@ -100,7 +98,7 @@
     margin-top: 3rem;
 }
 
-#inicio>#direita-home>#botoes-home>#btn-home1:hover {
+#btn-home1:hover {
     background-color: var(--azul-claro-coupe);
     color: #fff;
     transform: skewX(-15deg);
@@ -108,10 +106,95 @@
     transition: all 0.5s;
 }
 
-#inicio>#direita-home>#botoes-home>#btn-home2:hover {
+#btn-home2:hover {
     background-color: var(--amarelo-escuro-cabriolet);
     color: #fff;
     transform: skewX(-15deg);
     letter-spacing: 1rem;
     transition: all 0.5s;
+}
+
+
+@media (max-width: 767px) {
+    #inicio{
+        width: 97vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;  
+        margin-bottom: 10rem;
+    }
+
+    
+    #esquerda-home {
+        width: 20%;
+        display: none;
+    }
+    
+    
+    #direita-home {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #imagens-home {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    
+    
+    }
+    
+    #letreiro-home {
+        width: 70%;
+    }
+    
+    #carro-home {
+        width: 100%;
+        margin-top: -22px;
+    }
+    
+    #botoes-home {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -6rem;
+    
+    
+    }
+    
+    #btn-home1 {
+        background: none;
+        border: none;
+        color: black;
+        font-family: goose;
+        width: 25rem;
+        height: 3rem;
+        margin-top: 3rem;
+    }
+    
+    #btn-home2 {
+        background: none;
+        border: none;
+        color: black;
+        font-family: goose;
+        width: 25rem;
+        height: 3rem;
+        margin-top: 3rem;
+    }
+    
+    
+
+
+
+
+    
 }

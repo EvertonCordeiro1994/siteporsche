@@ -1,4 +1,5 @@
 #topBtn {
+    width: 100%;
     display: none;
     position: fixed;
     bottom: 20px;
@@ -7,7 +8,7 @@
     border: none;
     outline: none;
     background: none;
-    color: rgba(99, 97, 97, 0.459);
+    color: rgba(43, 42, 42, 0.726);
     cursor: pointer;
     font-size: 32px;
     

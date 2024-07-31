@@ -86,3 +86,96 @@
     font-family: 'porsche next';
 }
 
+
+@media (max-width: 767px) {
+    #modelos {
+        margin-top: 5rem;
+        width: 97vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.2rem;
+        margin-bottom: 10rem;
+    }
+    
+    .card_modelos {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 432px;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: #fff;
+    
+        border-radius: 12px;
+    
+        border: 1px solid rgba(97, 96, 96, 0.274);
+    
+    
+    }
+    
+    .titulo_card_modelos{
+        font-family: 'porsche next' ;
+    }
+    
+    
+    .img_card_modelos {
+        width: 452px;
+    }
+    
+    .img_modelo {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    
+    
+    .text_card_modelos {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        height: 7rem;
+        margin-bottom: 10px;
+        border-radius: 12px;
+    
+        background-color: #d6d8dd28;
+    
+    
+    }
+    
+    .informacoes {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+    .titulo_informacoes {
+        display: flex;
+        text-align: center;
+        width: 30%;
+        font-size: 1.5rem;
+        font-family: 'porsche next';
+    }
+    
+    .detalhe_titulo {
+        display: flex;
+        width: 30%;
+        font-size: 1rem;
+        font-family: 'porsche next';
+    }
+    
+    .subtitulo_informacoes {
+        display: flex;
+        text-align: center;
+        width: 30%;
+        font-size: 1rem;
+        font-family: 'porsche next';
+    }
+    
+    
+    
+}
