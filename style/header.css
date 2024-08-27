@@ -8,21 +8,21 @@ header {
 
 }
 
-img {
+header>img {
     width: 100px;
 }
 
-ul {
+header>nav>ul {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
 }
 
-li {
+header>nav>ul>li {
     list-style: none;
 }
 
-a {
+header>nav>ul>li>a {
     font-family: "porsche next";
     color: black;
     font-size: 0.9rem;
@@ -30,35 +30,8 @@ a {
 
 }
 
-li:hover {
+header>nav>ul>li:hover {
     letter-spacing: 1px;
     transition: all 0.1s;
     border-bottom: 2px solid black;
-}
-
-#menu_hamburguer{
-    display: none;
-}
-
-@media (max-width: 767px) {
- 
-    header{
-        width: 90%;
-        
-    }
-   
-    #logo-header{
-        width: 70px;
-    }
-
-    nav{
-        display: none;
-    }
-
-    #menu_hamburguer{
-        display: flex;
-        justify-content: end;
-    }
-
-    
 }

@@ -1,4 +1,5 @@
-footer {
+
+footer{
     width: 100%;
     height: 10rem;
     background-color: black;
@@ -8,7 +9,7 @@ footer {
 
 }
 
-#cima-footer {
+footer > #cima-footer{
     width: 99%;
     height: 100%;
     display: flex;
@@ -16,177 +17,70 @@ footer {
     align-items: center;
     margin-top: 2rem;
 
-
+    
 }
 
-#redes_sociais {
+footer > #cima-footer > #redes_sociais{
     width: 30%;
+    
 
-
-
+    
 }
-
-#titulo-footer {
+footer > #cima-footer > #redes_sociais > #titulo-footer {
     width: 100%;
     display: flex;
     justify-content: center;
 
-
+    
 }
-
-#titulo-footer>h1 {
+footer > #cima-footer > #redes_sociais > #titulo-footer > h1 {
     font-family: 'porsche next';
     font-size: 2rem;
     color: #fff;
-
+    
 }
 
 
-#icones-redes-sociais {
-    width: 80%;
+footer > #cima-footer > #redes_sociais > #icones-redes-sociais {
+    width: 100%;
     height: 4rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
-
+    
 }
 
-#imagem-logo-footer {
+footer > #cima-footer >  #imagem-logo-footer {
     width: 70%;
     display: flex;
     justify-content: end;
-
-
+    
+    
 }
 
-#imagem-logo-footer>img {
+footer > #cima-footer >  #imagem-logo-footer > img {
     width: 50%;
 }
 
 
 
-#assinatura {
+footer > #assinatura{
     width: 100%;
     height: 20%;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: end;
-
-
-
-
+    
+    
+    
+    
 }
 
-#assinatura>h1 {
+footer > #assinatura > h1{
     font-family: 'goose';
     font-size: 0.7rem;
     color: #363535;
     font-weight: lighter;
-}
-
-
-@media (max-width: 767px) {
-
-    footer {
-        width: 100%;
-        height: 10rem;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    #cima-footer {
-        width: 99%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 2rem;
-
-
-    }
-
-    #redes_sociais {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 1rem;
-
-
-
-    }
-
-    #titulo-footer {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-
-    }
-
-    #titulo-footer>h1 {
-        font-family: 'porsche next';
-        font-size: 1rem;
-        color: #fff;
-
-    }
-
-
-    #icones-redes-sociais {
-        width: 90%;
-        height: 1rem;
-        display: flex;
-        justify-content: space-evenly;
-        justify-content: center;
-        
-        
-    }
-    
-    #icones-redes-sociais > a > img {
-        width: 60%;
-        height: 60%;
-    }
-
-
-    #imagem-logo-footer {
-        width: 70%;
-        display: flex;
-        justify-content: end;
-
-
-    }
-
-    #imagem-logo-footer>img {
-        width: 100%;
-    }
-
-
-
-    #assinatura {
-        width: 100%;
-        height: 20%;
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-
-
-
-
-    }
-
-    #assinatura>h1 {
-        font-family: 'goose';
-        font-size: 0.7rem;
-        color: #363535;
-        font-weight: lighter;
-    }
-
 }
