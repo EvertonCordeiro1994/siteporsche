@@ -4,486 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/logo/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="./style/global.css">
-
-    <title>Porsche 911</title>
+    <title>Porsche Carrera</title>
 </head>
 
 <body>
-    <header class="animate__animated  animate__fadeInTopLeft">
-        <img id="logo-header" src="./images/logo/porsche-logo-1.png" alt="">
+    <header class="flex around h-2 centralizar-y p-1 ">
+        <img src="./images/favicon.ico" alt="">
         <nav>
-            <ul>
-                <li><a href="#sobre">SOBRE</a></li>
-                <li><a href="#galeria">FOTOS</a></li>
-                <li><a href="#modelos">MODELOS</a></li>
-                <li><a href="#contato">CONTATO</a></li>
+            <ul class="flex between gap-2 font-goose">
+                <li>INICIO</li>
+                <li>SOBRE</li>
+                <li>VIDEOS</li>
+                <li>FOTOS</li>
+                <li>CONTATO</li>
             </ul>
         </nav>
-        <div id="menu_hamburguer">
-            <button class="hamburger hamburger--collapse" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
-        </div>
+        <button id="btn-nav">Compre o seu</button>
     </header>
 
-    <section id="inicio">
-        <div id="esquerda-home">
-            <div>
-                <h1 class="animate__animated animate__fadeInLeft">PORSCHE</h1>
-                <h2 class="animate__animated animate__fadeInRight">CARRERA</h2>
-            </div>
+    <section id="inicio" class="flex w-80 centralizar-x w-100 h-100 centralizar-y mt--2">
+        <div class="girar flex flex-col">
+            <span class="font-porsche font-7">PORSCHE</span>
+            <span class="font-porsche font-5 cor-coupe">CARRERA</span>
         </div>
-        <div id="direita-home">
-            <div id="imagens-home">
-                <img class="animate__animated animate__fadeIn" id="letreiro-home" src="./images/911.svg" alt="">
-                <img class="animate__animated animate__bounceInLeft" id="carro-home"
-                    src="./images/carros/coupe-lado.avif" alt="">
+        <div class="flex flex-col gap-9">
+            <div class="mt-9">
+                <img class="w-60 " src="./images/911.svg" alt="">
+                <img class="animate__animated animate__bounceInLeft mt--3" src="./images/coupe/coupe-lado.avif" alt="">
             </div>
 
-            <div id="botoes-home" class="animate__animated animate__fadeInBottomRight">
-                <button id="btn-home1">COUPÉ</button>
+            <div class=" flex centralizar-x gap-2 mt--2">
+                <button id="btn-home1" class="btn-coupe-ativado">COUPÉ</button>
                 <button id="btn-home2">CABRIOLET</button>
             </div>
         </div>
     </section>
 
-    <section id="sobre">
-        <div id="texto-sobre">
-            <h1>Sobre o 911</h1>
-            <p>
-                O Porsche 911 é um ícone no mundo dos automóveis esportivos, conhecido pela sua longevidade e desempenho
-                excepcional. A história começa em 1963, quando a Porsche lançou o 911 como sucessor do 356. Projetado
-                por Ferdinand "Butzi" Porsche, neto do fundador da marca, o 911 tinha um design distinto com sua
-                carroceria fastback e motor montado na traseira.
-
-                Desde então, o 911 passou por várias gerações, cada uma evoluindo em termos de desempenho, tecnologia e
-                conforto, mas mantendo a essência do design original. A tração traseira e o motor boxer de seis
-                cilindros opostos continuam sendo características fundamentais do modelo, proporcionando um equilíbrio
-                único e dirigibilidade excepcional.
-
-                Ao longo dos anos, o 911 se tornou um ícone tanto nas ruas quanto nas pistas de corrida, acumulando
-                vitórias e uma reputação de confiabilidade e performance. A Porsche tem continuamente atualizado o 911
-                com novas tecnologias, mantendo-o relevante enquanto preserva sua identidade única.
-            </p>
+    <section id="comparacao">
+        <div id="div-titulo-comparacao">
+            <h1>Qual 911 é o ideal para você?</h1>
         </div>
-        <div id="img-sobre">
-            <img src="./images/carros/carr-sobre-04.jpg" alt="">
-        </div>
-    </section>
 
-    <section id="fotos">
-        <div id="galeria">
-            <div id="div01">
-                <div id="div03">
-                    <div id="div05">
-                        <a href="./images/galeria/foto-galeria  (4).jpg " data-fancybox>
-                            <img id="img01" src="./images/galeria/foto-galeria  (4).jpg" alt="">
-                        </a>
-                    </div>
-                    <div id="div06">
-                        <div id="div07">
-                            <div id="div09">
-                                <div id="div11">
-                                    <a href="./images/galeria/foto-galeria  (5).jpg" data-fancybox><img id="img02"
-                                            src="./images/galeria/foto-galeria  (5).jpg" alt=""></a>
-                                    <a href="./images/galeria/foto-galeria  (14).jpg" data-fancybox><img id="img03"
-                                            src="./images/galeria/foto-galeria  (14).jpg" alt=""></a>
-                                </div>
-                                <div id="div12">
-                                    <a href="./images/galeria/foto-galeria  (11).jpg" data-fancybox><img id="img04"
-                                            src="./images/galeria/foto-galeria  (11).jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div id="div10">
-                                <div id="div13">
-                                    <a href="./images/galeria/foto-galeria  (15).jpg" data-fancybox><img id="img05"
-                                            src="./images/galeria/foto-galeria  (15).jpg" alt=""></a>
-                                </div>
-                                <div id="div14">
-                                    <a href="./images/galeria/foto-galeria  (7).jpg" data-fancybox><img id="img06"
-                                            src="./images/galeria/foto-galeria  (7).jpg" alt=""></a>
-                                    <a href="./images/galeria/foto-galeria  (16).jpg" data-fancybox><img id="img07"
-                                            src="./images/galeria/foto-galeria  (16).jpg" alt=""></a>
-                                </div>
+        <div id="div-card-comparacao">
 
-                            </div>
+            <div id="div-modelo-1">
+                <img src="./images/coupe/coupe-lado.avif" alt="">
 
-                        </div>
-                        <div id="div08">
-                            <a href="./images/galeria/foto-galeria  (9).jpg" data-fancybox><img id="img08"
-                                    src="./images/galeria/foto-galeria  (9).jpg" alt=""></a>
-                            <a href="./images/galeria/foto-galeria  (8).jpg" data-fancybox><img id="img09"
-                                    src="./images/galeria/foto-galeria  (8).jpg" alt=""></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div id="div04">
-                    <a href="./images/galeria/foto-galeria  (5).jpg" data-fancybox><img id="img10"
-                            src="./images/galeria/foto-galeria  (5).jpg" alt=""></a>
-                    <a href="./images/galeria/foto-galeria  (6).jpg" data-fancybox><img id="img11"
-                            src="./images/galeria/foto-galeria  (6).jpg" alt=""></a>
-                    <a href="./images/galeria/foto-galeria  (1).jpg" data-fancybox><img id="img12"
-                            src="./images/galeria/foto-galeria  (1).jpg" alt=""></a>
+                <h1>911 Carrera (2025)</h1>
+                <div>
+                    <p>4,1 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>290 kW / 394 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>294 km/h</p>
+                    <span>Velocidade máxima</span>
                 </div>
 
             </div>
-            <div id="div02">
-                <a href="./images/galeria/foto-galeria  (3).jpg" data-fancybox><img id="img13"
-                        src="./images/galeria/foto-galeria  (3).jpg" alt=""></a>
+
+            <div id="div-modelo-2">
+                <img src="./images/cabriolet/cabriolet-lado.avif" alt="">
+
+                <h1>911 Carrera Cabriolet (2025)</h1>
+                <div>
+                    <p>4,3 s</p>
+                    <span>Aceleração 0 - 100 km/h</span>
+                    <p>290 kW / 394 cv</p>
+                    <span>Potência (kW) / Potência (cv)</span>
+                    <p>291 km/h</p>
+                    <span>Velocidade máxima</span>
+                </div>
+
             </div>
 
         </div>
 
     </section>
 
-
-    <section id="modelos">
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">Carrera 2025</h1>
-            <div class="img_card_modelos">
-                <div class="carrossel">
-                    <div class="carrossel-inner">
-                        <div class="carrossel-item">
-                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-frente.webp"
-                                alt=" carrera azul de frente">
-                        </div>
-                        <div class="carrossel-item">
-                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-lado.webp"
-                                alt=" carrera azul de frente">
-                        </div>
-                        <div class="carrossel-item">
-                            <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-costa.webp"
-                                alt=" carrera azul de frente">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="carrossel_inner">
-                    <img id="modelo01" class="img_modelo" src="./images/carros/carrera_2025/carrera-frente.webp" alt=" carrera azul de frente">
-                </div> -->
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">Carrera Cabriolet 2025</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/cabriolet_2025/cabriolet-frente.webp"
-                    alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">Carrera T 2024</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/T_2024/t-frente.webp" alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">Carrera GTS 2025</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/gts_2025/gts-frente.webp" alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">Carrera GTS cabriolet 2025</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/gts_cabriolet_2025/gts_cabriolet_frente.webp"
-                    alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">Carrera Turbo S cabriolet 2025</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/S_cabriolet_2024/s_cabriolet_frente.webp"
-                    alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">Dakar 2024</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/dakar_2024/dakar-frente.webp"
-                    alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">S/T 2024</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/st_2024/st-frente.webp" alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="card_modelos">
-            <h1 class="titulo_card_modelos">GT3 RS 2024</h1>
-            <div class="img_card_modelos">
-                <img class="img_modelo" src="./images/carros/gt3_2024/gt3-frente.webp " alt=" carrera azul de frente">
-            </div>
-            <div class="text_card_modelos">
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        394 <span class="detalhe_titulo">cv</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Potência (cv)
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        4,1 <span class="detalhe_titulo">s</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Aceleração 0 - 100 km/h
-                    </span>
-                </div>
-                <div class="informacoes">
-                    <p class="titulo_informacoes">
-                        294 <span class="detalhe_titulo">km/h</span>
-                    </p>
-                    <span class="subtitulo_informacoes">
-                        Velocidade máxima
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
 
     <section id="contato">
         <div id='area-texto-contato'>
@@ -491,54 +91,19 @@
                 <h1>Encontre seu Porsche novo ou seminovo.</h1>
                 <p>Ficou mais fácil encontrar o Porsche de seus sonhos. Digite seu email que entramos em contato e lhe
                     enviaremos todas as novidades para você.</p>
-                <div class="form-control">
-                    <input type="value" required="">
-                    <label>
-                        <span style="transition-delay:0ms">D</span>
-                        <span style="transition-delay:50ms">i</span>
-                        <span style="transition-delay:100ms">g</span>
-                        <span style="transition-delay:150ms">i</span>
-                        <span style="transition-delay:200ms">t</span>
-                        <span style="transition-delay:250ms">e</span>
-                        <span style="transition-delay:300ms"> </span>
-                        <span style="transition-delay:350ms">s</span>
-                        <span style="transition-delay:400ms">e</span>
-                        <span style="transition-delay:450ms">u</span>
-                        <span style="transition-delay:500ms"> </span>
-                        <span style="transition-delay:550ms">e</span>
-                        <span style="transition-delay:600ms">m</span>
-                        <span style="transition-delay:650ms">a</span>
-                        <span style="transition-delay:700ms">i</span>
-                        <span style="transition-delay:750ms">l</span>
-                        <span style="transition-delay:800ms"> </span>
-                        <span style="transition-delay:850ms">a</span>
-                        <span style="transition-delay:900ms">q</span>
-                        <span style="transition-delay:950ms">u</span>
-                        <span style="transition-delay:1000ms">i</span>
-                    </label>
-                </div>
-
-                <button class="btn_contato"> Enviar </button>
+                <input type="text" placeholder="Digite seu email">
             </form>
         </div>
 
-        <div id="div-img-contato">
-            <img id="carro_contato" src="./images/carros/gt3_2024/gt3-cima.webp" alt="">
-        </div>
+        <img id="carro_contato" src="./images/tres-carros.avif" alt="">
 
     </section>
-    <button id="topBtn" title="Voltar ao topo">
-        <i class="fa-regular fa-circle-up"></i>
-    </button>
 
     <footer>
-        <div id="cima-footer">
-            <div id="redes_sociais">
-                <div id="titulo-footer">
-                    <h1>Redes sociais</h1>
-                </div>
-                <div id="icones-redes-sociais">
-
+        <div>
+            <div>
+                <h1>Redes sociais</h1>
+                <div>
                     <a href="" target="_blank" title="facebook"><img src="./images/redes_sociais/face.svg" alt=""></a>
                     <a href="" target="_blank" title="instagran"><img src="./images/redes_sociais/insta.svg" alt=""></a>
                     <a href="" target="_blank" title="linkedin"><img src="./images/redes_sociais/linkedin.svg"
@@ -549,23 +114,12 @@
                     <a href="" target="_blank" title="youtube"><img src="./images/redes_sociais/youtube.svg" alt=""></a>
                 </div>
             </div>
-            <div id="imagem-logo-footer">
-                <img src="./images/logo/logo-escrito.svg" alt="">
-            </div>
+            <img src="./images/letreiro.svg" alt="">
         </div>
-
-
         <div id="assinatura">
             <h1>code by Éverton Cordeiro</h1>
         </div>
     </footer>
 </body>
-<script src="./script/dist/fancybox.js"></script>
-<script src="./script/btn_topo.js"></script>
-<script src="./script/btn_home.js"></script>
-<script src="./script/carrossel.js"></script>
-<script src="./script/hover_modelos.js"></script>
-<script src="./script/carrossel.js"></script>
-<script src="./script/hamburguer.js"></script>
 
 </html>
