@@ -1,0 +1,12 @@
+@mixin flex($flexType,$justify-content,$align-items){
+    display: flex;
+    flex-direction: $flexType;
+    justify-content: $justify-content ;
+    align-items: $align-items;
+}
+
+@mixin centralizar(){
+    align-items: center;
+    justify-content: center;
+
+}

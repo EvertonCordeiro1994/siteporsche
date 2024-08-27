@@ -1,0 +1,36 @@
+header {
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 100px;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+
+            li {
+                list-style: none;
+
+                a {
+                    font-family: "porsche next";
+                    color: black;
+                    font-size: 0.9rem;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    letter-spacing: 1px;
+                    transition: all 0.1s;
+                    border-bottom: 2px solid black;
+                }
+            }
+        }
+    }
+}

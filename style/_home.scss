@@ -1,0 +1,106 @@
+#inicio {
+    width: 80%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #esquerda-home {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-top: -5rem;
+            transform: rotate(-90deg);
+
+            h1 {
+                font-size: 120px;
+                font-family: 'porsche next';
+                letter-spacing: 6px;
+            }
+
+            h2 {
+                font-size: 70px;
+                font-family: 'porsche next';
+                letter-spacing: 6px;
+                margin-top: -100px;
+                color: var(--azul-claro-coupe);
+            }
+        }
+    }
+
+    #direita-home {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #imagens-home {
+            width: 95%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            #letreiro-home {
+                width: 70%;
+            }
+
+            #carro-home {
+                width: 100%;
+                margin-top: -50px;
+            }
+        }
+
+        #botoes-home {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: -6rem;
+
+            #btn-home1 {
+                background: none;
+                border: none;
+                color: black;
+                font-family: goose;
+                width: 25rem;
+                height: 3rem;
+                margin-top: 3rem;
+
+                &:hover {
+                    background-color: var(--azul-claro-coupe);
+                    color: #fff;
+                    transform: skewX(-15deg);
+                    letter-spacing: 1rem;
+                    transition: all 0.5s;
+                }
+            }
+
+            #btn-home2 {
+                background: none;
+                border: none;
+                color: black;
+                font-family: goose;
+                width: 25rem;
+                height: 3rem;
+                margin-top: 3rem;
+
+                &:hover {
+                    background-color: var(--amarelo-escuro-cabriolet);
+                    color: #fff;
+                    transform: skewX(-15deg);
+                    letter-spacing: 1rem;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+}

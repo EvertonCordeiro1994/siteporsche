@@ -1,0 +1,21 @@
+.btn_contato {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(0, 0, 0);
+        color: white;
+    }
+
+    &:disabled {
+        cursor: auto;
+        color: grey;
+    }
+}
